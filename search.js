@@ -27,6 +27,7 @@ async function defineWord() {
 		// Not a word
 		resultTitle.innerHTML = `${word}:`;
 		resultText.innerHTML = "<span class=\"definition\">Sorry, pal. No definitions found.</span>";
+		searchInput.value = "";
 		return;
 	}
 
