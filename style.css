@@ -63,7 +63,6 @@ body {
 }
 
 #search_bar {
-	position: fixed;
 	background: #3d3e4a;
 	padding: 7px;
 	width: 70%;
@@ -108,4 +107,15 @@ a, a:visited {
 a:hover {
 	color: #ce92df;
 	text-decoration: underline;
+}
+
+#fact {
+	flex: 1;
+}
+
+#catfact {
+	font-size: 85%;
+	font-family: monospace;
+	color: #959fae;
+	margin: 20px;
 }
