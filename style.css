@@ -2,6 +2,7 @@ body {
 	margin: 0px 0px;
 	background: #353641;
 	font-family: sans-serif;
+	overflow-y: hidden;
 }
 
 #container {
@@ -10,10 +11,12 @@ body {
 
 #left {
 	flex: 1;
-	height: 100vh;
 	background-color: #202022;
 	color: #f1f1f1;
 	padding: 1vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #main {
@@ -29,12 +32,13 @@ body {
 
 #result {
 	width: 100%;
+	height: 90%;
 	flex: 9;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 }
 
 #ex_word {
@@ -87,6 +91,8 @@ body {
 
 #result_text {
 	width: 60%;
+	padding: 10%;
+	overflow-y: scroll;
 }
 
 .definition {
