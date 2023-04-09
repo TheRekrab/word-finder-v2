@@ -37,6 +37,14 @@ body {
 	text-align: center;
 }
 
+#ex_word {
+	background: none;
+	outline: none;
+	border: none;
+	color: inherit;
+	font-family: monospace;
+}
+
 #ex_word:hover {
 	cursor: pointer;
 	text-decoration: underline;
@@ -71,6 +79,10 @@ body {
 
 #search_btn {
 	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	color: inherit;
 }
 
 #result_text {

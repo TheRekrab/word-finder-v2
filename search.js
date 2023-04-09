@@ -2,7 +2,6 @@ const resultTitle = document.getElementById("result_title");
 const resultText = document.getElementById("result_text");
 const exWord = document.getElementById("ex_word");
 const searchForm = document.getElementById("search_bar");
-const searchBtn = document.getElementById("search_btn");
 const searchInput = document.getElementById("search_input");
 
 async function defineWord() {

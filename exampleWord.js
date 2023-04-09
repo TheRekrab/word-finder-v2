@@ -35,3 +35,8 @@ async function getExampleWord() {
 }
 
 getExampleWord();
+
+exampleWord.onclick = function () {
+	searchInput.value = exampleWord.innerHTML;
+	searchForm.onsubmit();
+}
