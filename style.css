@@ -93,3 +93,13 @@ body {
 	font-size: 110%;
 	font-family: monospace;
 }
+
+a, a:visited {
+	color:  #bf6ed6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ce92df;
+	text-decoration: underline;
+}
