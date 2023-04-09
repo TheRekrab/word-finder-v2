@@ -91,7 +91,7 @@ body {
 
 #result_text {
 	width: 60%;
-	padding: 10%;
+	padding: 0px 10%;
 	overflow-y: scroll;
 }
 
