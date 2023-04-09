@@ -51,6 +51,7 @@ body {
 }
 
 #search_bar {
+	position: fixed;
 	background: #3d3e4a;
 	padding: 7px;
 	width: 70%;
@@ -70,4 +71,13 @@ body {
 
 #search_btn {
 	cursor: pointer;
+}
+
+#result_text {
+	width: 60%;
+}
+
+.definition {
+	font-size: 110%;
+	font-family: monospace;
 }
